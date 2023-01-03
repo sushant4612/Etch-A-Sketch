@@ -1,20 +1,50 @@
 *{
+    background-color: wheat;
     margin: 0px;
     padding: 0px;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container{
     display: inline-block;
 }
 
+.box{
+    width: 705px;
+    height: 600px;
+}
+
 .elements{
-    height: 36px;
-    width: 36px;
+    padding: 19px;
+    /* margin: 2px; */
     border-style: solid;
-    border-width: 1px;
-    border-color: white;
+    border-color: black;
+    padding-bottom: 12px;
 }
 
 .elements{
     background-color: blue;
+}
+
+.body{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn{
+    border-radius: 50%;
+    align-self: flex-start;
+    margin-left: 2px;
+    padding: 11px;
+    margin-right: 24px;
+    margin-top: 40px;
+    color: white;
+    background-color: green;
 }
